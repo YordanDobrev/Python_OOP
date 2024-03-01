@@ -1,6 +1,6 @@
-from project.song import Song
-from project.album import Album
-from project.band import Band
+from projectw.song import Song
+from projectw.album import Album
+from projectw.band import Band
 
 import unittest
 

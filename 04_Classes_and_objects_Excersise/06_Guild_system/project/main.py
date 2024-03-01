@@ -1,5 +1,5 @@
-from project.player import Player
-from project.guild import Guild
+from projectw.player import Player
+from projectw.guild import Guild
 
 import unittest
 

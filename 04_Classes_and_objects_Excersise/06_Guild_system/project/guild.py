@@ -1,6 +1,6 @@
 from typing import List
 
-from project.player import Player
+from projectw.player import Player
 
 
 class Guild:

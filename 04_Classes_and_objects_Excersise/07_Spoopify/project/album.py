@@ -1,6 +1,6 @@
 from typing import List, Tuple
 
-from project.song import Song
+from projectw.song import Song
 
 
 class Album:
