@@ -59,7 +59,9 @@ class Car:
     def refuel(self, fuel):
         if fuel <= 0:
             raise Exception("Fuel amount cannot be zero or negative!")
+
         self.__fuel_amount += fuel
+
         if self.__fuel_amount > self.__fuel_capacity:
             self.__fuel_amount = self.__fuel_capacity
 
@@ -70,7 +72,3 @@ class Car:
             raise Exception("You don't have enough fuel to drive!")
 
         self.__fuel_amount -= needed
-
-car = Car("a", "b", 1, 4)
-car.make = ""
-print(car)
